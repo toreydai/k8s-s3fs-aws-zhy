@@ -74,5 +74,8 @@ d--------- 1 root root        0 Aug 17 03:26 openvpn
 
 ```
 
-### 在Amazon S3存储桶中查看
+### 5. 在Amazon S3存储桶中查看
 ![avatar](https://github.com/toreydai/k8s-s3fs-aws-zhy/blob/main/s3fs-s3.png)
+
+参考资料：
+https://aws.amazon.com/cn/blogs/china/use-u3fs-as-shared-storage-to-kubernetes-pod/
