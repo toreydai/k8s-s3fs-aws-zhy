@@ -21,11 +21,11 @@ data:
 修改完成后，创建Configmap
 
 ```
-kubectl create -f ./yaml/configmap_secrets_template.yaml
+kubectl create -f configmap_secrets_template.yaml
 ```
 ### 3. 创建Kubernetes Daemonset
 ```
-kubectl create -f ./yaml/daemonset.yaml
+kubectl create -f daemonset.yaml
 ```
 查看daemonset是否运行正常
 
