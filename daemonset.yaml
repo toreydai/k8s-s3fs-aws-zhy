@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: s3fuse
-        image: direct.to/taodai/kube-s3:v1.0
+        #image: direct.to/taodai/kube-s3:v1.0
+        image: 048912060910.dkr.ecr.cn-northwest-1.amazonaws.com.cn/nwcd/kube-s3:v1.0
         lifecycle:
           preStop:
             exec:
