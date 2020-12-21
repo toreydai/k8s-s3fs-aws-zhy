@@ -47,7 +47,6 @@ kubectl create -f example_pod.yaml
 # 查看Pod状态
 kubectl get pod
 NAME                          READY   STATUS    RESTARTS   AGE
-NAME                          READY   STATUS    RESTARTS   AGE
 s3-provider-ckgd5             1/1     Running   0          144m
 test-pd                       1/1     Running   0          143m
 
